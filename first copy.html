@@ -3,20 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="app.css" />
     <title>Emily LeBoeuf</title>
   </head>
   <body>
     <header>
       <img
-        src="transparent_logo.png"
+        src="images/logo_final.png"
         height="100"
         width="100"
-        alt="Emily Leboeuf
-      personal logo"
+        alt="Emily Leboeuf personal logo"
       />
-      <hr />
+
       <h1>Emily LeBoeuf</h1>
-      <hr />
     </header>
 
     <main>
@@ -38,8 +39,6 @@
         </p>
       </section>
       <section>
-        <hr />
-
         <h2>Projects:</h2>
         <article>
           <h3>Pokedex</h3>
@@ -53,12 +52,11 @@
           <h3>Dog Adoption Webpage</h3>
           <p>Making dog adoption easier with a clean and fresh webpage.</p>
         </article>
-        <hr />
       </section>
       <section>
         <table>
           <caption>
-            Certifications & Skills: Building My Skills for Tomorrow
+            Certifications & Skills: Building My Skills for Tomorrow:
           </caption>
           <thead>
             <tr>
@@ -107,7 +105,6 @@
             </tr>
           </tbody>
         </table>
-        <hr />
 
         <h2>Get In Touch!</h2>
         <address>
@@ -119,7 +116,40 @@
             >
           </p>
         </address>
-        <hr />
+
+        <h3>Have a Quick Question?</h3>
+        <form>
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Your name" required />
+          </label>
+          <br /><br />
+
+          <label>
+            Email
+            <input
+              type="email"
+              name="email"
+              placeholder="Your email"
+              required
+            />
+          </label>
+          <br /><br />
+
+          <label>
+            Message
+            <textarea
+              name="message"
+              placeholder="Your message"
+              rows="5"
+              cols="30"
+              required
+            ></textarea>
+          </label>
+          <br /><br />
+
+          <button type="submit">Send</button>
+        </form>
       </section>
     </main>
 
@@ -131,5 +161,3 @@
     </footer>
   </body>
 </html>
-
-<!--Refresh Trigger-->
